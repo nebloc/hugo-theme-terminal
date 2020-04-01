@@ -23,10 +23,6 @@
   </span>
   {{ end }}
 
-  {{ with .Params.Cover }}
-  <img src="{{ . | absURL }}" class="post-cover" />
-  {{ end }}
-
   <div class="post-content">
     {{- with .Content -}}
       <div>
